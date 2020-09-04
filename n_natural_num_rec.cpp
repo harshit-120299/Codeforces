@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-//typedef IOS
 void c_p_c()
 {
 	#ifndef ONLINE_JUDGE
@@ -15,12 +14,12 @@ void pat(int n)
 		return;
 	else
 		pat(n-1);
-	cout<<n;		
+	cout<<n<<" ";		
 }
 
 int main()
 {
 	c_p_c();
-	pat(4);
+	pat(4);// 1 to n natural numbers recursion
 	return 0;
 }

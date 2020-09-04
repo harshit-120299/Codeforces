@@ -1,6 +1,8 @@
+//here's the template file for github 
 #include <bits/stdc++.h>
 using namespace std;
-void IOS()
+//typedef IOS;
+void c_p_c()
 {
 	#ifndef ONLINE_JUDGE
 	freopen("input.txt","r",stdin);
@@ -9,8 +11,8 @@ void IOS()
 }
 
 int main()
-{
-	IOS();
+{	//IOS;
+	c_p_c();
 	cout<<min(10,20);
 	return 0;
 }
