@@ -1,5 +1,7 @@
+//here's the template file for codeforces 
 #include <bits/stdc++.h>
 using namespace std;
+//typedef IOS;
 void c_p_c()
 {
 	#ifndef ONLINE_JUDGE
@@ -8,18 +10,17 @@ void c_p_c()
 	#endif
 }
 
-void pat(int n)
+
+int fact(int n)
 {
-	if (n==0)
-		return;
-	else
-		pat(n-1);
-	cout<<n<<" ";		
+	if(n==1)
+		return 1;
+	return n*fact(n-1);
 }
 
 int main()
-{
+{	//IOS;
 	c_p_c();
-	pat(4);// 1 to n natural numbers recursion
+	cout<<fact(5);
 	return 0;
 }
