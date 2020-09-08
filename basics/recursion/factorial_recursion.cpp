@@ -10,17 +10,18 @@ void c_p_c()
 	#endif
 }
 
-
 int fact(int n)
 {
-	if(n==1)
-		return 1;
-	return n*fact(n-1);
+	if(n==0)
+		return 1;	
+	else 
+		return n*fact(n-1);
 }
 
 int main()
 {	//IOS;
 	c_p_c();
-	cout<<fact(5);
+	
+	cout<<fact(6);
 	return 0;
 }

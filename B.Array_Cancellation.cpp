@@ -10,17 +10,21 @@ void c_p_c()
 	#endif
 }
 
-
-int fact(int n)
-{
-	if(n==1)
-		return 1;
-	return n*fact(n-1);
-}
-
 int main()
 {	//IOS;
 	c_p_c();
-	cout<<fact(5);
+	int t,n,val;
+	cin>>t;
+	for (int l = 0; l < t; ++l)
+	{
+		cin>>n;
+		int arr[n];
+		for (int i = 0; i < n; ++i)
+		{
+			cin>>val;
+			arr[i]=val;
+			
+		}
+		cout<<"\n";
+	}
 	return 0;
-}
