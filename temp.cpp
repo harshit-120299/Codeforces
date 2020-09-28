@@ -2,17 +2,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 //typedef IOS;
-void c_p_c()
+void cpc()
 {
-	// #ifndef ONLINE_JUDGE
+	#ifndef ONLINE_JUDGE
 	freopen("input.txt","r",stdin);
 	freopen("output.txt","w",stdout);
-	// #endif
+	#endif
 }
 
 int main()
 {	//IOS;
-	c_p_c();
-	
+	cpc();
 	return 0;
 }
