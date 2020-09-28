@@ -4,10 +4,10 @@ using namespace std;
 //typedef IOS;
 void c_p_c()
 {
-	#ifndef ONLINE_JUDGE
+	// #ifndef ONLINE_JUDGE
 	freopen("input.txt","r",stdin);
 	freopen("output.txt","w",stdout);
-	#endif
+	// #endif
 }
 
 int main()
