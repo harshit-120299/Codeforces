@@ -10,8 +10,9 @@ void cpc()
 	#endif
 }
 
-int main()
-{	//IOS;
+int main() {
+	//code
 	cpc();
+	
 	return 0;
 }
