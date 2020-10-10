@@ -6,7 +6,7 @@ public:
         for(int i=0;i<matrix.size();i++){
             for(int j=0;j<matrix[0].size();j++)
                 if(matrix[i][j]==0){ 
-                    if(c.find(j)==r.end()) c.insert(j);
+                    if(c.find(j)==c.end()) c.insert(j);
                     if(r.find(i)==r.end()) r.insert(i);
                 }
         }
