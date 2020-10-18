@@ -21,10 +21,8 @@ const long double pi=3.1415926535897932384626433832;
 
 
 void c_p_c() {
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif
+freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
 }
 
 

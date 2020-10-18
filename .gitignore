@@ -1,5 +1,6 @@
-input.txt
-output.txt
+*.txt
+*.txt
 *.exe
 *.txt
 try*.cpp
+*.bat
