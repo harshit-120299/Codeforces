@@ -32,7 +32,7 @@ int main() {
     // Code starts from here:
     int t; cin >> t;
     while (t--) {
-    	
+        
     }
 
 
