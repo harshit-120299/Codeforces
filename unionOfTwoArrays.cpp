@@ -1,3 +1,5 @@
+//https://practice.geeksforgeeks.org/problems/union-of-two-arrays/0
+//union of two arrays
 #include <bits/stdc++.h>
 using namespace std;
 #define IOS ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
@@ -26,11 +28,30 @@ int main() {
     
     // Code starts from here:
     int t; cin >> t;
+    int  size1, size2; 
     while (t--) {
         
+        set<int> set1;
+        
+        cin>>size1; cin>>size2;
+
+        int arr1[size1], arr2[size2];
+
+        for (int i = 0; i < size1; ++i)     cin>>arr1[i];
+
+        for (int i = 0; i < size2; ++i)     cin>>arr2[i];
+        
+        for (int i = 0; i < size1; ++i) set1.insert(arr1[i]);  
+        
+        for (int i = 0; i < size2; ++i) set1.insert(arr2[i]);               
+    
+        //for (auto i = set1.begin(); i!=set1.end(); ++i) cout<<*i<<" ";         
+        cout<<set1.size();
+        
+        cout<<endl;
     }
 
-    
+
     
     cerr << "Time elapsed: " << 1.0 * clock() / CLOCKS_PER_SEC << " s.\n";
 

@@ -23,17 +23,15 @@ int main()
 	    cin>>S;
 	    int arr[S];
 	    int val;
-
 	    for(int l=0;l<S;l++){
 	        cin>>val;
 	        arr[l]=val;
 	    }
-
     	int arrlen = sizeof arr / sizeof arr[0];
     	int max=arr[0];
     	int sum=0;
-
-    	for (int i = 0; i < arrlen ; ++i){
+    	for (int i = 0; i < arrlen ; ++i)
+    	{
     		sum+=arr[i];
     		if(sum>max)max=sum;
     		if(sum<0)sum=0;
