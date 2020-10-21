@@ -20,12 +20,11 @@ int getMinDiff(int arr[], int n, int k)
 	// Handle corner elements 
 	int small = arr[0] + k; 
 	int big = arr[n-1] - k; 
-	if (small > big) 
-	swap(small, big); 
+
+	if (small > big) swap(small, big); 
 
 	// Traverse middle elements 
-	for (int i = 1; i < n-1; i ++) 
-	{ 
+	for (int i = 1; i < n-1; i ++) { 
 		int subtract = arr[i] - k; 
 		int add = arr[i] + k; 
 
@@ -57,12 +56,10 @@ freopen("output.txt", "w", stdout);
 
 
 int main() {
-    //IOS;
     c_p_c();
 	int arr[] = {4, 6}; 
 	int n = sizeof(arr)/sizeof(arr[0]); 
 	int k = 10; 
-	cout << "\nMaximum difference is "
-		<< getMinDiff(arr, n, k); 
+	cout << "\nMaximum difference is "<< getMinDiff(arr, n, k); 
 	return 0; 
 } 
