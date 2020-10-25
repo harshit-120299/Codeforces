@@ -1,4 +1,5 @@
 //https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0
+//Minimum number of jumps
 #include <bits/stdc++.h>
 using namespace std;
 

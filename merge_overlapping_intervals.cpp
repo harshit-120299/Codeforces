@@ -24,6 +24,7 @@ int main() {
 	    cin>>size;
 	    v.clear();
 	    v1.clear();
+	    
 	    for(int j=0;j<size*2;j++){
 	        cin>>val;
 	        v.push_back(val);

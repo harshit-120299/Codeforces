@@ -22,15 +22,16 @@ freopen("output.txt", "w", stdout);
 int main() {
     IOS;
     c_p_c();
-    
-    // Code starts from here:
-    int t; cin >> t;
-    while (t--) {
         
-    }
-
-    
-    
+    // Code starts from here:
+    // int t; cin >> t;
+    // while (t--) {
+        
+    // }
+    int m=10,n=35,p=5,d=6;
+    int c=p/d+m*n;
+    cout<<c;
+    //printf("%d",25?5?0:5:25);
     cerr << "Time elapsed: " << 1.0 * clock() / CLOCKS_PER_SEC << " s.\n";
 
 }
